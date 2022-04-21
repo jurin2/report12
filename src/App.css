@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container{
+  width: 800px;
+}
+.container p{
+  margin: 15px 0 0;
+}
+.container a{
+  text-decoration: none;
+}
+.col,.col-md-4{
+  padding: 0;
+}
+h2{
+  margin: 15px 0;
+}
+@media (min-width: 768px){
+  .container{
+    max-width: 800px;
+    padding: 0;
+  }
+  .col,.col-md-4{
+    max-width: 100%;
+  }
+}
